@@ -1,12 +1,11 @@
-/* Fuentes */
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: #f2e6d7;
     color: #234c47;
   }
-  
-  /* Encabezado */
+
   .barra-logo {
     background-color: #77c1ac;
     text-align: center;
@@ -28,7 +27,7 @@ body {
     padding-right: 2%;
   }
   
-  /* Sección de contacto */
+ 
   .contacto-container {
     display: flex;
     justify-content: center;
@@ -68,7 +67,7 @@ body {
     cursor: pointer;
   }
   
-  /* Formulario */
+
   .formulario h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
@@ -107,7 +106,7 @@ body {
     cursor: pointer;
   }
   
-  /* Newsletter */
+
   .newsletter {
     background-color: #77c1ac;
     padding: 2rem;
@@ -143,7 +142,7 @@ body {
     cursor: pointer;
   }
   
-  /* Navegación inferior */
+
   .nav-inferior {
     background-color: #e2c4a6;
     padding: 2rem 2rem;
@@ -175,7 +174,7 @@ body {
     font-size: 1.20rem;
   }
   
-  /* Footer */
+
   .footer {
     padding: 3rem 2rem;
     background-color: #f2e6d7;
