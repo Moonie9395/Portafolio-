@@ -9,7 +9,7 @@ body {
     color: #2f4f4f;
 }
 
-/* HEADER */
+
 .header {
     background-color: #a3c3b2;
 }
@@ -25,7 +25,7 @@ body {
     height: auto;
 }
 
-/* CITA */
+
 .quote {
     background-color: #d9b89c;
     text-align: right;
@@ -40,7 +40,7 @@ body {
     margin-left: 10px;
 }
 
-/* SECCIÓN INICIO */
+
 .inicio {
     background-color: #f0e4d4;
     display: flex;
@@ -81,7 +81,7 @@ body {
     object-fit: cover;
 }
 
-/* SECCIÓN HABILIDADES */
+
 .habilidades {
     background-color: #7ba596;
     display: flex;
@@ -135,7 +135,6 @@ body {
     font-style: italic;
 }
 
-/* SECCIÓN PERFIL */
 .perfil {
     background-color: #d9b89c;
     display: flex;
@@ -161,7 +160,7 @@ body {
 
 .perfil-image-stack {
     position: relative;
-    width: 100%; /* que ocupe todo el ancho disponible */
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -187,7 +186,6 @@ body {
     z-index: 1;
 }
 
-/* NEWSLETTER */
 .newsletter {
     background-color: #77c1ac;
     padding: 2rem;
@@ -222,7 +220,7 @@ body {
     cursor: pointer;
 }
 
-/* NAV INFERIOR */
+
 .nav-inferior {
     background-color: #e2c4a6;
     padding: 2rem 2rem;
@@ -253,7 +251,7 @@ body {
     font-size: 1.20rem;
 }
 
-/* FOOTER */
+
 .footer {
     padding: 3rem 2rem;
     background-color: #f2e6d7;
