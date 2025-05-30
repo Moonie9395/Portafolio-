@@ -10,7 +10,6 @@ body {
   color: #333;
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -40,7 +39,6 @@ nav a.activo {
   text-decoration: underline;
 }
 
-
 .shell-linea {
   display: flex;
   justify-content: center;
@@ -48,12 +46,11 @@ nav a.activo {
   padding: 10px 0;
   height: 60px;
   width: 100%;
-  background-image:url(cascara.png);
+  background-image: url(Imagenes/cascara.png);
   background-size: 60px;
   background-repeat: repeat-x;
   background-color: #e7cfb7;
 }
-
 
 .galeria-contenedor {
   width: 100%;
@@ -92,7 +89,6 @@ nav a.activo {
   align-items: center;
 }
 
-
 .banner {
   display: flex;
   justify-content: center;
@@ -112,7 +108,6 @@ nav a.activo {
   animation: slide 5s ease-in-out infinite; 
 }
 
-
 @keyframes slide {
   0% {
     transform: translateX(-100%);
@@ -127,7 +122,6 @@ nav a.activo {
     opacity: 0;
   }
 }
-
 
 .content {
   padding: 20px;
@@ -169,7 +163,6 @@ nav a.activo {
   object-position: center; 
 }
 
-
 .galeria {
   margin-bottom: 40px;
   display: flex;
@@ -192,7 +185,6 @@ nav a.activo {
   border-radius: 10px;
 }
 
-
 .row-3 .image-placeholder,
 .row-3 .video-placeholder {
   flex: 1 1 calc(33.333% - 200px);
@@ -202,8 +194,6 @@ nav a.activo {
   flex: 1 1 calc(25% - 20px);
 }
 
-
-/* Placeholders */
 .image-placeholder,
 .video-placeholder {
   background-color: rgba(255, 255, 255, 0.4);
@@ -214,7 +204,6 @@ nav a.activo {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .row-vertical {
   display: flex;
@@ -343,8 +332,6 @@ nav a.activo {
   background-color: #b1887c;
 }
 
-
-
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -369,146 +356,4 @@ nav a.activo {
 .video-placeholder video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-
-.carousel {
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-
-.carousel-track {
-    display: flex;
-    transition: transform 1.8s ease;
-}
-
-
-.carousel-slide {
-    flex-shrink: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.carousel-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-.carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.6);
-    border: none;
-    font-size: 2rem;
-    padding: 10px 18px;
-    cursor: pointer;
-    z-index: 10;
-    border-radius: 50%;
-    color: #333;
-    transition: background 0.3s ease;
-}
-
-.carousel-btn:hover {
-    background: rgba(255, 255, 255, 0.9);
-}
-
-.carousel-btn.prev {
-    left: 20px;
-}
-
-.carousel-btn.next {
-    right: 20px;
-}
-
-
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 2rem;
-  align-items: flex-start;
-}
-
-.footer-info h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 4rem;
-  margin: 0;
-  color: #348d83;
-  text-align: center;
-}
-
-.autor {
-  font-size: 1.3rem;
-  color: #2b6f67;
-  margin: 0.4rem 0 1rem;
-  text-align: center;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 3rem 2rem;
-  background-color: #a4c6b8;
-  color: #234c47;
-}
-
-.footer-info {
-  flex: 1 1 40%; 
-  min-width: 300px;
-}
-
-.footer-galeria {
-  flex: 1 1 55%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: flex-start;
-}
-
-.footer-video {
-  width: 30%;
-  min-width: 200px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
-
-#boton-arriba {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  padding: 12px 16px;
-  font-size: 24px;
-  background-color: #ffffff;
-  color: #333;
-  border: none;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  z-index: 1000;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.4s ease;
-}
-
-#boton-arriba.visible {
-  opacity: 1;
-  pointer-events: auto;
-}
+  object
